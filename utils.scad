@@ -29,4 +29,9 @@ module drawer(width, height, depth, inset, front_thickness, side_thickness, back
         cylinder(100, 30, 30, true);
     }
   }
+  echo("Drawer front: ", drawer_width, front_thickness, drawer_height);
+  echo("Drawer back: ", inner_width, back_thickness, side_height);
+  echo("Drawer side: ", side_thickness, inner_depth, side_height);
+  echo("Drawer side: ", side_thickness, inner_depth, side_height);
+  echo("Drawer bottom: ", inner_width - 2*side_thickness, inner_depth, bottom_thickness);
 }
